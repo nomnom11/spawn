@@ -27,6 +27,12 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="virtual-protocol-site-verification"
+          content="97570bd35cb1a697ba56a336ba00579f"
+        />
+      </head>
       <body className={outfit.variable}>{children}</body>
     </html>
   );
